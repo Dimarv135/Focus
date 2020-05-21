@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="generic_horizontal_spacing">16dp</dimen>
+    <dimen name="generic_vertical_spacing">16dp</dimen>
+    <dimen name="generic_spacing">16dp</dimen>
+
+    <dimen name="generic_small_horizontal_spacing">8dp</dimen>
+    <dimen name="generic_small_vertical_spacing">8dp</dimen>
+    <dimen name="generic_small_spacing">@dimen/generic_small_horizontal_spacing</dimen>
+
+    <dimen name="generic_medium_spacing">24dp</dimen>
+
+    <dimen name="generic_extra_small_horizontal_spacing">4dp</dimen>
+    <dimen name="generic_extra_small_vertical_spacing">4dp</dimen>
+
+
+    <dimen name="generic_big_horizontal_spacing">32dp</dimen>
+    <dimen name="generic_big_vertical_spacing">32dp</dimen>
+    <dimen name="generic_big_spacing">@dimen/generic_big_horizontal_spacing</dimen>
+
+    <dimen name="generic_extra_big_horizontal_spacing">40dp</dimen>
+    <dimen name="generic_extra_big_vertical_spacing">40dp</dimen>
+    <dimen name="generic_extra_big_spacing">@dimen/generic_extra_big_horizontal_spacing</dimen>
+
+    <dimen name="generic_huge_horizontal_spacing">72dp</dimen>
+    <dimen name="generic_huge_vertical_spacing">72dp</dimen>
+    <dimen name="generic_huge_spacing">@dimen/generic_huge_horizontal_spacing</dimen>
+
+    <!--Text Sizes-->
+    <dimen name="text_size_extra_large">24sp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="default_text_size">14sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_extra_small">10sp</dimen>
+
+    <dimen name="large_line_spacing">5sp</dimen>
+    <dimen name="medium_line_spacing">4sp</dimen>
+    <dimen name="small_line_spacing">3sp</dimen>
+</resources>

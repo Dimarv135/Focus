@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/text_field_transition">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/inputContainerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text_field_default">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/customTextInputViewLayout"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_alignEnd="@+id/textInputViewIcon"
+                android:layout_marginEnd="@dimen/generic_spacing"
+                android:clickable="false"
+                android:focusable="false"
+                android:gravity="bottom"
+                android:hint="T"
+                android:paddingTop="@dimen/generic_small_spacing"
+                android:paddingBottom="@dimen/generic_small_spacing"
+                android:textAlignment="gravity"
+                android:theme="@style/TextInputHint"
+                app:hintTextColor="@color/grey">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/customTextInputViewEdit"
+                    style="@style/Text.Medium.Bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/greyLighter"
+                    android:ellipsize="end"
+                    android:focusable="true"
+                    android:gravity="center_vertical"
+                    android:inputType="text"
+                    android:paddingStart="@dimen/generic_horizontal_spacing"
+                    android:paddingEnd="@dimen/generic_horizontal_spacing"
+                    android:paddingBottom="4dp"
+                    android:textAlignment="gravity" />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <ImageView
+                android:id="@+id/textInputViewIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="@dimen/generic_spacing"
+                android:padding="@dimen/generic_extra_small_vertical_spacing"
+                tools:src="@android:drawable/ic_menu_close_clear_cancel" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/extInputErrorBottomMessage"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingTop="@dimen/generic_small_vertical_spacing"
+            android:textColor="@color/red"
+            android:visibility="gone"
+            tools:text="wrong"
+            tools:visibility="visible" />
+
+    </LinearLayout>
+
+</FrameLayout>

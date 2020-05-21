@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomTextInputLayout">
+        <attr name="hint" format="reference"/>
+        <attr name="drawableRight" format="reference"/>
+        <attr name="drawableClickable" format="boolean"/>
+        <attr name="drawableFocusable" format="boolean"/>
+        <attr name="inputType" format="string"/>
+        <attr name="maxLength" format="string"/>
+        <attr name="android:longClickable"/>
+
+    </declare-styleable>
+
+</resources>
